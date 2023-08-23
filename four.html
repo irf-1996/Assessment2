@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>District Name - Individual Page</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      
+    }
+    body {
+      background-color: #f8f9fa;
+      /* background-image: url("/images/first.jpg"); */
+      background-size: cover;
+}
+#logo {
+  width: 100px; /* Adjust to your desired width */
+  height: auto;
+}
+
+.nav-item{
+
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+    .district-header {
+      padding: 50px;
+      /* background-color: #0a0c0e; */
+      color: #9ba74a;
+      text-align: center;
+      
+    }
+    .district-description {
+      padding: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .tourist-spot {
+      margin-top: 30px;
+    }
+    .spot-card {
+      border: none;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      
+    }
+    .spot-card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    .spot-card-body {
+      padding: 20px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+    .spot-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .spot-description {
+      font-size: 14px;
+      line-height: 1.2;
+      /* white-space: nowrap; */
+       overflow:scroll;
+      /* text-overflow:clip; */ */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <img src="images/logo.png" alt="logo" id="logo">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="district.html">Districts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="district-header">
+      <h1> Welcome to Kozhikode district</h1>
+    </div>
+    <div class="district-description">
+      <p>Zone: South <br>
+
+        Telephone Access Code:+91 495 <br>
+        
+        The legendary seaport where Arab, Chinese and East African traders once converged, Kozhikode was previously the most crucial region of the Malabar Coast. Vasco da Gama landed on its shores in 1498, shooting the region to global fame. Once the capital of the influential Zamorins and a prominent trade and commerce centre, the winds of change have swept over this charming coastal land. The whiff of history continues to permeate the lanes, bazaars and business hubs of Kozhikode. Lush green countryside, serene beaches, historic sites, wildlife sanctuaries, rivers and hills make Kozhikode a popular destination.</p>
+    </div>
+  <div class="container">
+    <div class="row">
+      <!-- Tourist Spot 1: Bekal Fort -->
+      <div class="col-md-6">
+        <div class="tourist-spot">
+          <div class="card spot-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1478151041_20191231145429.jpg" class="card-img-top" alt="Bekal Fort">
+            <div class="card-body spot-card-body">
+              <h5 class="card-title spot-name">Peruvannamuzhi Dam</h5>
+              <p class="card-text spot-description">Situated 60 km off Kozhikode, the Peruvannamuzhi Dam is a beautiful place surrounded by verdant greenery. The reservoir here offers speed boat and row boat ride across the 'Smaraka Thottam' - a garden built in the memory of freedom fighters in the region.
+
+                There is also a crocodile farm & bird sanctuary located a close to the dam for the wildlife lovers. The Dam is easily accessible by bus from Kozhikode.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tourist Spot 2: Ranipuram -->
+      <div class="col-md-6">
+        <div class="tourist-spot">
+          <div class="card spot-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Beypore1_20180112222539.jpg" class="card-img-top" alt="Ranipuram">
+            <div class="card-body spot-card-body">
+              <h5 class="card-title spot-name">Beypore</h5>
+              <p class="card-text spot-description">Beypore is a cosy coastal town tucked away in the small but striking Kozhikode District. Located at the mouth of the energetic Chaliyar River, this town is covered in vibrant shades of green and surrounded by mystic shades of blue. When under the reign of Tipu Sultan, who was the ruler of Mysore, this town was named Sultan Pattanam..
+                
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Tourist Spot 2: Ranipuram -->
+  <div class="col-md-6">
+    <div class="tourist-spot">
+      <div class="card spot-card">
+        <img src="https://www.holidify.com/images/compressed/attractions/attr_1060.jpg" class="card-img-top" alt="Ranipuram">
+        <div class="card-body spot-card-body">
+          <h5 class="card-title spot-name">Sweet Kappad Beach</h5>
+          <p class="card-text spot-description">Pondicherry is not the only seashore with European history, the Kappad Beach in Kerala is infamous for being the destination of Vasco Da Gama, the famous Portuguese explorer. It is the shore that made the explorer the first to reach India by sea. Today, Kappad is one of the most scenic beaches India has to offer. It is lined with palm trees and sedimentary rocks that decorate the shore and give any visitor a serene feeling. The idyllic beach is apt for rejuvenation of body and soul. 
+
+            Since 1498, Kappad became a very important port with regard to trade between Europe and Asia. It was this voyage of Vasco Da Gama that led to the establishment of a permanent route for the Europeans to reach India. This beach was the reason for the Spice route to exist. Kappad beach is presently in the district of Kozhikode and is also known as Kappakkadavu. The beach is perfect for swimming, boating, beach games and activities with your loved ones. The beach also provides activities like Paragliding, Snorkelling and Surfing for adventure seekers or just anyone who wants to try something new.
+            
+            Kerala is famous for its rivers, and their backwater inlets and Kappad does not disappoint if you want to experience these toHouseboatsats are available to reach Kappad through the backwaters to ensure that one enjoys every element that is true to Kerala and its roots. This beach is the place you want to be to experience culture, history and nature all at once. The silver sand, the drooping coconut trees that line the shore and the rocks that clash with the waves proves that Kappad abounds with untouched natural beauty. Along with the Pookat Lake and Kadalundi Bird Santuary, Kappad makes your visit to Kozhikode a completely enthralling and rejuvenating one. 
+            
+            
+            </p> </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+
+
+  <!-- Link to Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

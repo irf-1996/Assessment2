@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>District Name - Individual Page</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      
+    }
+    body {
+      background-color: #f8f9fa;
+      /* background-image: url("/images/first.jpg"); */
+      background-size: cover;
+}
+#logo {
+  width: 100px; /* Adjust to your desired width */
+  height: auto;
+}
+
+.nav-item{
+
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+    .district-header {
+      padding: 50px;
+      /* background-color: #0a0c0e; */
+      color: #9ba74a;
+      text-align: center;
+      
+    }
+    .district-description {
+      padding: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .tourist-spot {
+      margin-top: 30px;
+    }
+    .spot-card {
+      border: none;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      
+    }
+    .spot-card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    .spot-card-body {
+      padding: 20px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+    .spot-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .spot-description {
+      font-size: 14px;
+      line-height: 1.2;
+      /* white-space: nowrap; */
+       overflow:scroll;
+      /* text-overflow:clip; */ */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <img src="images/logo.png" alt="logo" id="logo">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="district.html">Districts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="district-header">
+      <h1> Welcome to Wayand district</h1>
+    </div>
+    <div class="district-description">
+      <p>Zone: South <br>
+
+        Telephone Access Code:+91 4936 <br>
+        
+        Wayanad adorns the northern tip of Kerala and is among the few areas in the world that have managed to conserve their natural charm and beauty. Teeming with rare flora and fauna, it is considered among the most picturesque locations in Kerala. It is host to a large variety of endemic species. One is surrounded by mist-covered peaks and lush greenery on all sides. The tribals of the area are renowned for their unique customs and the festivals here are true celebrations of the harmony between man and nature. Many prominent resorts have come up in this area as well and provide our visitors with many adventure sports and trekking options in the very palms of nature.</p>
+    </div>
+  <div class="container">
+    <div class="row">
+      <!-- Tourist Spot 1: Bekal Fort -->
+      <div class="col-md-6">
+        <div class="tourist-spot">
+          <div class="card spot-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_796295632_20200116122849_20200116122911.png" class="card-img-top" alt="Bekal Fort">
+            <div class="card-body spot-card-body">
+              <h5 class="card-title spot-name">Edakkal Caves</h5>
+              <p class="card-text spot-description">Famous for its exquisite rock and wall carvings, the pre-historic Edakkal Caves are two naturally occurring alcoves located in the Wayanad district of Kerala. The caves measure at a massive length and width of 96 and 22 feet respectively and lie 1200 metres above the sea level. Owing to its precarious location, one needs to trek for one and half hour (around 4000 ft) to hit the cave entrance, and another 45 minutes to reach the mouth of the cave. The Edakkal caves are of historical and archaeological significance as it has carvings that date back to the Neolithic era, the late Stone Age. The stonework in the interior of the cave is estimated to be as old as 5000 BC to 1000 BC.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tourist Spot 2: Ranipuram -->
+      <div class="col-md-6">
+        <div class="tourist-spot">
+          <div class="card spot-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/100816080236(BannerImage)SOOCHIPPARAWATERFALLSIMAGE-15_20180118201857.JPG" class="card-img-top" alt="Ranipuram">
+            <div class="card-body spot-card-body">
+              <h5 class="card-title spot-name">Soochipara Falls</h5>
+              <p class="card-text spot-description">Also known as Sentinel Rock Waterfalls, Soochipara Falls is a three-tiered waterfall situated in Vellarimala, Wayanad. Surrounded by deciduous, evergreen and montane forests, this waterfall is regarded as one of the best waterfalls. The drive from Meppadi to Sentinel Rock Waterfalls provides visitors with scenic views of some of the best tea estates in Wayanad. 
+
+                This enchanting waterfall is 200 meters high that also offer a cliff face, ideal for rock climbing. Also, since the water falling from the waterfall forms a large pool, one can enjoy swimming and bathing in it. The water falling from Soochipara later joins Chulika River aka Chaliyar River after hills from Kerela and Tamil Nadu.
+                
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Tourist Spot 2: Ranipuram -->
+  <div class="col-md-6">
+    <div class="tourist-spot">
+      <div class="card spot-card">
+        <img src="https://www.holidify.com/images/cmsuploads/compressed/5050103657_24bd77f515_b_20190116144012.jpg" class="card-img-top" alt="Ranipuram">
+        <div class="card-body spot-card-body">
+          <h5 class="card-title spot-name">Banasura Hill</h5>
+          <p class="card-text spot-description">One of the tallest mountains in the region, Banasura Hill is a part of the Western Ghats of India having an altitude of over 2000 metres. The hill has a wide variety of flora and fauna and offers a beautiful atmosphere for nature walks and trekking. The Kurichiya tribe, a tribe expert in bow and arrow, have their settlements at the foothills.
+            
+            </p> </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+
+
+  <!-- Link to Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
