@@ -39,6 +39,10 @@
     align-items: center;
     text-align: center;
     transition: margin-right 0.5s ease;
+    background-color: rgb(242, 241, 216);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  padding: 20px;
   }
   .about h2 {
     /* text-align: center; */
@@ -164,11 +168,46 @@
   #contact button[type="submit"]:hover {
     background-color: #1eb300;
   }
-  /* Resize the chat widget */
+  .footer {
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 5px 0;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
+    }
+    
+
+    /* Animation */
+    @keyframes slideInFromLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    .animate-slideIn {
+      animation: slideInFromLeft 1s ease-in-out forwards;
+    }
+
 .tawk-chat-container {
-    width: 300px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-}
+    width: 300px; 
+    height: 400px; 
+
 
 </style> 
 </head>
@@ -218,22 +257,22 @@
   <!-- About Section -->
   <section id="about" class="py-5">
     <div class="about">
-      <div class="row">
-        <div class="col-lg-6">
+      <!-- <div class="row">
+        <div class="col-lg-6"> -->
           <!-- <h2 class="text-center">About Kerala</h2> -->
-        </div>
+          <center><h2> ABOUT US</h2></center><br>
+        <!-- </div>
         <div class="col-lg-6">
           <!-- Insert an image of Kerala here -->
-        </div>
-      </div>
+        <!-- </div>
+      </div> -->
 
       <div class="row">
         <div class="col-lg-12">
           <div class="slide-in-from-right">
-            
-          
-          
-          <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: display;">"Kerala has 14 separate districts, each famous for its own set of unique destinations and features. This is to aid you in the process of gaining more data regarding the areas you would like to visit and plan your trip accordingly.Immerse yourself in the breathtaking landscapes, pristine beaches, and vibrant culture of our destination. From lush forests to crystal-clear waters, every moment here is a picture-perfect memory waiting to be made"</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: display;">Welcome to the enchanting realm of Kerala, where nature's beauty and cultural vibrance come together to create an unforgettable experience. Nestled in the southwestern part of India, Kerala beckons you with its lush landscapes, serene backwaters, pristine beaches, and rich cultural heritage.
+              Kerala has 14 separate districts, each famous for its own set of unique destinations and features. This is to aid you in the process of gaining more data regarding the areas you would like to visit and plan your trip accordingly.Immerse yourself in the breathtaking landscapes, pristine beaches, and vibrant culture of our destination. 
+              From lush forests to crystal-clear waters, every moment here is a picture-perfect memory waiting to be made.</p>
         </div>
       </div>
       </div>
@@ -318,11 +357,24 @@
       </form>
     </div>
   </section>
-
+  <footer class="footer">
+    <div class="container">
+      <p>Kerala Tourism</p>
+      <p >Email: keralatourism@gmail.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+ 
   <!-- Link to Bootstrap JS and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </body>
 <!--Start of Tawk.to Script-->
 
