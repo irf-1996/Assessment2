@@ -98,16 +98,18 @@
         <div class="login-container">
           <h2 class="mb-4"style="text-align: center" ><i>Hi there!!!</i></h2>
           <h2 class="text-center mb-4">Log In..</h2>
-          <form>
+          <form action="district.html">
             <div class="form-group">
-              <label for="username">Username</label>
-              <input type="text" class="form-control" id="username" placeholder="Enter username">
+              <label for="username">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <span id="err2"></span>
             </div>
             <div class="form-group">
               <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Password">
+              <input type="password" class="form-control" id="password" placeholder="Password" onkeyup="validatePassword()">
+              <span id="err3"></span> 
             </div>
-            <button type="submit" class="btn btn-primary btn-block"><a href="district.html" style="color: #333;"> LogIn </a></button>
+            <button type="submit" class="btn btn-primary btn-block" onclick="return Validation()"> LogIn </a></button>
             
 
           </form>
@@ -120,7 +122,11 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="login.js"></script>
 </body>
+
+
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){
